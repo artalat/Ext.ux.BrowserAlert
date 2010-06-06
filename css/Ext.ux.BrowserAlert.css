@@ -1,0 +1,45 @@
+.browser-alert {
+	background: #FFF6BF none repeat scroll 0 0;
+	color: #514721;
+	border: 2px solid #FFD324;
+	padding: 0.4em;
+	position: relative;
+}
+	.browser-alert h1 
+	{
+		font: italic normal 2em "Warnock Pro", "Goudy Old Style", "Palatino", "Book Antiqua", Georgia, serif; 
+		margin: 0;
+	}
+	
+	.browser-alert p 
+	{
+		margin: 3px 0;
+	}
+	
+	.browser-alert a {color: #514721;}
+	
+	.browser-alert img {border: none; margin: 0 3px;}
+	
+	.browser-alert .bad-message {font: 14px Georgia, "Times New Roman", Times, serif;}
+	
+	.browser-alert .good-message {
+		text-transform: uppercase;
+		font-size: 10px;
+		font-weight: bold;
+		margin: 5px 0;
+	}
+	
+	.browser-alert .icons {text-align: center;}
+	
+	.browser-alert .close-button {
+		cursor: pointer;
+		font-size: 12px;
+		padding: 0 3px 2px;
+		position: absolute;
+		right: 5px;
+		top: 5px;
+	}
+	.browser-alert .close-button:hover {
+		color: #FFF6BF;
+		background: #514721;
+	}
